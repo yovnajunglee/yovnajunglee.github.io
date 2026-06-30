@@ -2,7 +2,7 @@ education:
   - date: "2022–present"
     title: "Ph.D. in Statistics"
     org: "University  of Toronto"
-    detail: "Advisor: Meredith Franklin, Vianey Leos Barajas."
+    detail: "Advisors: Meredith Franklin, Vianey Leos Barajas."
   - date: "2020–2022"
     title: "MSc. in Advanced Analytics (with distinction)"
     org: "University of Cape Town"
@@ -11,7 +11,7 @@ education:
 talks:
   - date: "2026"
     title: "A dynamic anisotropic kernel averaged predictor model for PM2.5 using satellite-derived AOD."
-    org: "Contributed Session, Statistical Society of Canada Annual Meeting. Hamilton, ON."
+    org: "Statistical Society of Canada Annual Meeting. Hamilton, ON."
     detail: 'See the <a href="https://ssc-ca.translate.goog/en/meeting/annual/presentation/a-dynamic-anisotropic-kernel-averaged-predictor-model-pm25-using?_x_tr_sl=fr&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc">abstract</a>.'
   - date: "2025"
     title: "Bayesian analysis of weighted regression models for spatio-temporal data and its application to PM2.5 mapping using satellite-derived data."
