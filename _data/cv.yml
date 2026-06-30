@@ -1,22 +1,25 @@
 education:
   - date: "2022–present"
-    title: "Ph.D. in Computer Science"
-    org: "University Name"
-    detail: "Advisor: Prof. Someone Important. Dissertation: \"A Working Title for the Thesis.\""
-  - date: "2018–2022"
-    title: "B.S. in Computer Science, summa cum laude"
-    org: "Undergraduate University"
+    title: "Ph.D. in Statistics"
+    org: "University  of Toronto"
+    detail: "Advisor: Meredith Franklin, Ricardo Baptista."
+  - date: "2020–2022"
+    title: "MSc. in Advanced Analytics (with distinction)"
+    org: "University of Cape Town"
     detail: ""
 
 experience:
-  - date: "2024–present"
+  - date: "2025–present"
     title: "Research Assistant"
-    org: "Some Lab, University Name"
-    detail: "Working on the thing the publications above are about."
-  - date: "2023"
-    title: "Research Intern"
-    org: "Company / Lab Name"
-    detail: "Summer internship on a related project."
+    org: "Department of Statistical Sciences, University of Toronto"
+    detail: "Development of modern R teaching tools for undergraduate-level students in statistics."
+  - date: "2022-Present"
+    title: "Teaching Assistant"
+    org: "Department of Statistical Sciences, University of Toronto"
+    detail: "Also mentored undergraduate final-year students for their research projects. 
+    One cool project was the development of an interactive dashboard for the Beach BIA to
+    showcase the biodiversity in that neighbourhood: check it out [here](https://experience.arcgis.com/experience/b7c9365f024d4e578aa2260e94b6da68)!"
+
 
 awards:
   - date: "2025"
