@@ -1,0 +1,229 @@
+---
+---
+/* ---------------------------------------------
+   Design tokens
+--------------------------------------------- */
+:root {
+  --color-bg:        #FAFAF8;
+  --color-bg-alt:    #F2F0EA;
+  --color-ink:       #1B1B1F;
+  --color-ink-soft:  #4A4A50;
+  --color-accent:    #2C5530;
+  --color-accent-soft: #E8EDE6;
+  --color-brass:     #8B6F47;
+  --color-rule:      #D8D5CC;
+
+  --font-display: "Newsreader", Georgia, serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --measure: 680px;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-font-smoothing: antialiased; }
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+.page {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 4rem 1.5rem 3rem;
+}
+
+/* ---------------------------------------------
+   Masthead
+--------------------------------------------- */
+.masthead {
+  border-bottom: 1px solid var(--color-rule);
+  padding-bottom: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.masthead-name {
+  font-family: var(--font-display);
+  font-size: 2.25rem;
+  font-weight: 500;
+  color: var(--color-ink);
+  letter-spacing: -0.01em;
+}
+.masthead-name:hover { text-decoration: none; color: var(--color-accent); }
+
+.masthead-tagline {
+  margin: 0.35rem 0 1.25rem;
+  color: var(--color-ink-soft);
+  font-size: 0.98rem;
+}
+
+.nav {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.nav-link { color: var(--color-ink-soft); }
+.nav-link.is-active { color: var(--color-accent); border-bottom: 1px solid var(--color-accent); }
+.nav-dot { color: var(--color-rule); margin: 0 0.6em; }
+
+/* ---------------------------------------------
+   Content typography
+--------------------------------------------- */
+.content h1 {
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin: 0 0 1rem;
+}
+.content h2 {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--color-rule);
+}
+.content p { margin: 0 0 1.1rem; }
+.content ul { padding-left: 1.2rem; }
+
+.profile {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+.profile-photo {
+  width: 128px;
+  height: 128px;
+  border-radius: 4px;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-rule);
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.profile-text { flex: 1; }
+
+.links-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  margin-top: 1.25rem;
+}
+
+/* ---------------------------------------------
+   CV sections (education, experience, awards)
+--------------------------------------------- */
+.cv-entry {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 0.25rem 1.25rem;
+  margin-bottom: 1.1rem;
+}
+.cv-entry-date {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--color-brass);
+  padding-top: 0.15rem;
+}
+.cv-entry-title { font-weight: 600; }
+.cv-entry-org { color: var(--color-ink-soft); font-size: 0.95rem; }
+.cv-entry-detail { font-size: 0.92rem; color: var(--color-ink-soft); margin-top: 0.15rem; }
+
+@media (max-width: 540px) {
+  .cv-entry { grid-template-columns: 1fr; }
+  .cv-entry-date { padding-top: 0; }
+}
+
+/* ---------------------------------------------
+   Publications — catalog-card signature element
+--------------------------------------------- */
+.pub-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pub-card {
+  display: flex;
+  gap: 0.9rem;
+  padding: 0.95rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.pub-card:first-child { padding-top: 0; }
+
+.pub-tab {
+  flex-shrink: 0;
+  width: 4px;
+  border-radius: 2px;
+  background: var(--color-accent);
+}
+.pub-tab.is-conference { background: var(--color-brass); }
+.pub-tab.is-preprint { background: var(--color-rule); }
+
+.pub-body { flex: 1; min-width: 0; }
+
+.pub-meta {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-ink-soft);
+  margin-bottom: 0.25rem;
+}
+.pub-meta .pub-year { color: var(--color-brass); }
+
+.pub-title {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin: 0 0 0.2rem;
+}
+
+.pub-authors {
+  font-size: 0.92rem;
+  color: var(--color-ink-soft);
+  margin: 0 0 0.3rem;
+}
+.pub-authors strong { color: var(--color-ink); font-weight: 600; }
+
+.pub-links {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+}
+.pub-links a { margin-right: 0.9rem; }
+
+/* ---------------------------------------------
+   Footer
+--------------------------------------------- */
+.footer {
+  margin-top: 4rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--color-rule);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-soft);
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; }
+}

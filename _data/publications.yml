@@ -1,0 +1,36 @@
+# Add a new publication by copying a block below.
+# type: journal | conference | preprint  (controls the colored tab)
+# Put your own name in **bold** using Markdown-style asterisks inside `authors`.
+
+- title: "A Scalable Method for Doing the Thing"
+  authors: "**Jane Doe**, Alex Smith, Pat Lee"
+  venue: "Journal of Important Results"
+  year: 2026
+  type: journal
+  links:
+    - label: "PDF"
+      url: "#"
+    - label: "Code"
+      url: "#"
+    - label: "DOI"
+      url: "#"
+
+- title: "Toward a Better Approach for the Other Thing"
+  authors: "**Jane Doe**, Chris Park"
+  venue: "Proceedings of the Conference on Cool Stuff (CCS)"
+  year: 2025
+  type: conference
+  links:
+    - label: "PDF"
+      url: "#"
+    - label: "Slides"
+      url: "#"
+
+- title: "Early Results on a Promising Direction"
+  authors: "**Jane Doe**"
+  venue: "arXiv preprint"
+  year: 2025
+  type: preprint
+  links:
+    - label: "arXiv"
+      url: "#"

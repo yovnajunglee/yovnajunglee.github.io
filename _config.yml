@@ -1,0 +1,30 @@
+# Site settings — edit these
+title: "Jane Doe"
+tagline: "PhD Candidate, Department of Computer Science"
+description: "Personal academic website of Jane Doe — research, publications, and CV."
+email: jane.doe@university.edu
+url: "https://username.github.io"   # change to your actual GitHub Pages URL
+baseurl: ""                          # leave empty unless this is a project page, e.g. "/repo-name"
+
+author: "Jane Doe"
+
+# Navigation — add/remove/reorder as needed
+nav:
+  - title: About
+    url: /
+  - title: CV
+    url: /cv/
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

@@ -1,0 +1,29 @@
+education:
+  - date: "2022–present"
+    title: "Ph.D. in Computer Science"
+    org: "University Name"
+    detail: "Advisor: Prof. Someone Important. Dissertation: \"A Working Title for the Thesis.\""
+  - date: "2018–2022"
+    title: "B.S. in Computer Science, summa cum laude"
+    org: "Undergraduate University"
+    detail: ""
+
+experience:
+  - date: "2024–present"
+    title: "Research Assistant"
+    org: "Some Lab, University Name"
+    detail: "Working on the thing the publications above are about."
+  - date: "2023"
+    title: "Research Intern"
+    org: "Company / Lab Name"
+    detail: "Summer internship on a related project."
+
+awards:
+  - date: "2025"
+    title: "Best Paper Award, Conference on Cool Stuff"
+    org: ""
+    detail: ""
+  - date: "2022"
+    title: "Departmental Fellowship"
+    org: "University Name"
+    detail: ""
