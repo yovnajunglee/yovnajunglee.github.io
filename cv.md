@@ -3,10 +3,6 @@ layout: default
 title: CV
 permalink: /cv/
 ---
-
-<h1>Curriculum Vitae</h1>
-<p><a href="{{ '/assets/cv.pdf' | relative_url }}">Download as PDF →</a></p>
-
 <h2>Education</h2>
 {% for entry in site.data.cv.education %}
 <div class="cv-entry">
@@ -36,6 +32,18 @@ permalink: /cv/
   </li>
   {% endfor %}
 </ul>
+
+<h2>Talks</h2>
+{% for entry in site.data.cv.talks %}
+<div class="cv-entry">
+  <div class="cv-entry-date">{{ entry.date }}</div>
+  <div>
+    <div class="cv-entry-title">{{ entry.title }}</div>
+    <div class="cv-entry-org">{{ entry.org }}</div>
+    {% if entry.detail and entry.detail != "" %}<div class="cv-entry-detail">{{ entry.detail }}</div>{% endif %}
+  </div>
+</div>
+{% endfor %}
 
 <h2>Experience</h2>
 {% for entry in site.data.cv.experience %}
