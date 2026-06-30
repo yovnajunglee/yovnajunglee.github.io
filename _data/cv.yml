@@ -2,7 +2,7 @@ education:
   - date: "2022–present"
     title: "Ph.D. in Statistics"
     org: "University  of Toronto"
-    detail: "Advisor: Meredith Franklin, Ricardo Baptista."
+    detail: "Advisor: Meredith Franklin, Vianey Leos Barajas."
   - date: "2020–2022"
     title: "MSc. in Advanced Analytics (with distinction)"
     org: "University of Cape Town"
@@ -17,8 +17,8 @@ experience:
     title: "Teaching Assistant"
     org: "Department of Statistical Sciences, University of Toronto"
     detail: "Also mentored undergraduate final-year students for their research projects. 
-    One cool project was the development of an interactive dashboard for the Beach BIA to
-    showcase the biodiversity in that neighbourhood: check it out [here](https://experience.arcgis.com/experience/b7c9365f024d4e578aa2260e94b6da68)!"
+    One cool project was the development of an interactive dashboard for the Beach BIA using ArcGIS to
+    showcase the biodiversity in the neighbourhood: check it out <a href="https://experience.arcgis.com/experience/b7c9365f024d4e578aa2260e94b6da68">here</a>!"
 
 
 awards:
