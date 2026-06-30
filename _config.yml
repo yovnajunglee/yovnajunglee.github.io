@@ -1,18 +1,18 @@
 # Site settings — edit these
-title: "Jane Doe"
-tagline: "PhD Candidate, Department of Computer Science"
-description: "Personal academic website of Jane Doe — research, publications, and CV."
-email: jane.doe@university.edu
-url: "https://username.github.io"   # change to your actual GitHub Pages URL
+title: "Yovna Junglee"
+tagline: "PhD Candidate, Department of Statistical Sciences, University of Toronto"
+description: "Personal academic website."
+email: yovna.junglee@mail.utoronto.ca
+url: "https://yovnajunglee.github.io"   # change to your actual GitHub Pages URL
 baseurl: ""                          # leave empty unless this is a project page, e.g. "/repo-name"
 
-author: "Jane Doe"
+author: "Yovna Junglee
 
 # Navigation — add/remove/reorder as needed
 nav:
   - title: About
     url: /
-  - title: CV
+  - title: Research
     url: /cv/
 
 # Build settings
