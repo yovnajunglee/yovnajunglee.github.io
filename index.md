@@ -7,8 +7,8 @@ title: About
   <img class="profile-photo" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Photo of {{ site.author }}" onerror="this.style.display='none'">
   <div class="profile-text">
     <p>
-      I'm a Ph.D. candidate in the Department of Statistical Sciences at
-      the University of Toronto working on developing advanced spatio-temporal statistics for environmental and climate sciences. My research is supervised by Meredith Franklin and Vianey Leos Barajas.
+      I'm a Ph.D. candidate in the Department of Statistical Sciences at the University of Toronto, where I develop advanced spatio-temporal statistical methods for environmental and climate science. My work focuses on bridging statistics with physical understanding - incorporating physics-informed approaches into statistical and machine learning models to better capture the dynamics underlying complex environmental systems, rather than treating them as black boxes. I apply these methods to pressing real-world problems, including wildfire-driven air pollution, extreme weather events, and tropical cyclones — particularly the rapid intensification that makes these storms so difficult to forecast and so dangerous when they make landfall.
+I'm fortunate to be supervised by Meredith Franklin and Vianey Leos Barajas, whose expertise in spatial statistics and environmental/ecological modeling shapes much of my approach to these problems.
     </p>
     <p>
       Before this, I completed my B.S. at Undergraduate University. I'm
