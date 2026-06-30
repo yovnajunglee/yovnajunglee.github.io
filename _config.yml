@@ -6,13 +6,13 @@ email: yovna.junglee@mail.utoronto.ca
 url: "https://yovnajunglee.github.io"   # change to your actual GitHub Pages URL
 baseurl: ""                          # leave empty unless this is a project page, e.g. "/repo-name"
 
-author: "Yovna Junglee
+author: "Yovna Junglee"
 
 # Navigation — add/remove/reorder as needed
 nav:
   - title: About
     url: /
-  - title: Research
+  - title: CV
     url: /cv/
 
 # Build settings
