@@ -227,3 +227,17 @@ a:focus-visible, button:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; }
 }
+
+.profile-photo {
+  width: 220px;
+  height: auto;
+  border-radius: 4px;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-rule);
+  flex-shrink: 0;
+}
+
+@media (max-width: 540px) {
+  .profile { flex-direction: column; }
+  .profile-photo { width: 160px; }
+}
