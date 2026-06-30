@@ -11,9 +11,6 @@ title: About
     </p>
     <div class="links-row">
       <a href="mailto:{{ site.email }}">Email</a>
-      <a href="https://scholar.google.com/">Google Scholar</a>
-      <a href="https://github.com/">GitHub</a>
-      <a href="https://linkedin.com/">LinkedIn</a>
     </div>
   </div>
 </div>
