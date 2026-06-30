@@ -8,6 +8,16 @@ education:
     org: "University of Cape Town"
     detail: ""
 
+talks:
+  - date: "2026"
+    title: "A dynamic anisotropic kernel averaged predictor model for PM2.5 using satellite-derived AOD."
+    org: "Contributed Session, Statistical Society of Canada Annual Meeting. Hamilton, ON."
+    detail: 'See the <a href="https://ssc-ca.translate.goog/en/meeting/annual/presentation/a-dynamic-anisotropic-kernel-averaged-predictor-model-pm25-using?_x_tr_sl=fr&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc">abstract</a>.'
+  - date: "2025"
+    title: "Bayesian analysis of weighted regression models for spatio-temporal data and its application to PM2.5 mapping using satellite-derived data."
+    org: "Environmental and Ecological Statistics Conference. Lancaster, UK."
+    detail: ""
+
 experience:
   - date: "2025–present"
     title: "Research Assistant"
