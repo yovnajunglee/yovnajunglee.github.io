@@ -10,9 +10,9 @@ author: "Yovna Junglee"
 
 # Navigation — add/remove/reorder as needed
 nav:
-  - title: About
+  - title: About 
     url: /
-  - title: Research
+  - title: CV
     url: /cv/
 
 # Build settings

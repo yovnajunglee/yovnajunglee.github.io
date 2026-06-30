@@ -10,3 +10,5 @@
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2511.02149"
+    - label: "Code"
+      url: "https://github.com/yovnajunglee/st-wgt-regression"

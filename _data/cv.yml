@@ -29,11 +29,11 @@ experience:
     detail: 'Also mentored undergraduate final-year students for their research projects. One cool project was the development of an interactive dashboard for the Beach BIA using ArcGIS to showcase the biodiversity in the neighbourhood: check it out <a href="https://experience.arcgis.com/experience/b7c9365f024d4e578aa2260e94b6da68">here</a>!'
 
 awards:
-  - date: "2025"
-    title: "Best Paper Award, Conference on Cool Stuff"
-    org: ""
-    detail: ""
   - date: "2022"
-    title: "Departmental Fellowship"
-    org: "University Name"
+    title: "Recognition of Excellence Award"
+    org: "University of Toronto"
+    detail: ""
+  - date: "2021"
+    title: "Best Student Paper Award"
+    org: "South African Statistical Association"
     detail: ""
