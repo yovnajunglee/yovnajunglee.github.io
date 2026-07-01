@@ -14,6 +14,9 @@ nav:
     url: /
   - title: CV
     url: /cv/
+  - title: Other
+    url: /other/
+
 
 # Build settings
 markdown: kramdown
