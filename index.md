@@ -19,5 +19,5 @@ title: About
 <ul>
   <li><span style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--color-brass);">Jun 2026</span> — Paper accepted to the International Conference on Statistics, Data Science, and Computing for the Environment and Climate Change in Mexico City.</li>
   <li><span style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--color-brass);">May 2026</span> — Gave a talk at the  <a href="https://bbseminar.utstat.utoronto.ca" target="_blank">Brown Bag Seminar</a> on forecasting rapid intensification of Tropical Cyclones.</li>
-  <li><span style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--color-brass);">Apr 2026</span> — I promise I leave my computer every now and then! I did the Salkantay Trek to Machu Picchu in Peru. 10/10, would willingly suffer again.</li>
+  <li><span style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--color-brass);">Apr 2026</span> — Did the Salkantay Trek to Machu Picchu in Peru. 10/10, would willingly suffer again. (i do leave my computer sometimes!)</li>
 </ul>
