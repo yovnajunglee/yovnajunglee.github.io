@@ -4,7 +4,7 @@ title: Other
 permalink: /other/
 ---
 
-<h1>Photography</h1>
+<h1>ON FILM</h1>
 <p>A few photos taken outside of research.</p>
 
 <div class="gallery">
