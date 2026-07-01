@@ -1,11 +1,11 @@
 education:
   - date: "2022–present"
     title: "Ph.D. in Statistics"
-    org: "University  of Toronto"
+    org: "University  of Toronto, Canada"
     detail: "Advisors: Meredith Franklin, Vianey Leos Barajas."
   - date: "2020–2022"
     title: "MSc. in Advanced Analytics (with distinction)"
-    org: "University of Cape Town"
+    org: "University of Cape Town, South Africa"
     detail: ""
 
 talks:
