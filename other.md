@@ -4,7 +4,7 @@ title: Other
 permalink: /other/
 ---
 
-<h1>life outside of academia on film</h1>
+<h2>life outside of academia on film</h2>
 
 <div class="gallery">
   {% for photo in site.data.photography %}
