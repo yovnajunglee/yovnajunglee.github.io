@@ -57,6 +57,18 @@ permalink: /cv/
 </div>
 {% endfor %}
 
+<h2>Service</h2>
+{% for entry in site.data.cv.service %}
+<div class="cv-entry">
+  <div class="cv-entry-date">{{ entry.date }}</div>
+  <div>
+    <div class="cv-entry-title">{{ entry.title }}</div>
+    <div class="cv-entry-org">{{ entry.org }}</div>
+    {% if entry.detail and entry.detail != "" %}<div class="cv-entry-detail">{{ entry.detail }}</div>{% endif %}
+  </div>
+</div>
+{% endfor %}
+
 <h2>Awards</h2>
 {% for entry in site.data.cv.awards %}
 <div class="cv-entry">
