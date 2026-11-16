@@ -39,6 +39,7 @@ service:
   - date: "2023-2024"
     title: "Vice-President of the Statistics Graduate Student Union"
     org: "Department of Statistical Sciences, University of Toronto"
+    detail: ""
 
 awards:
   - date: "2022"
